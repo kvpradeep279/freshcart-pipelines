@@ -19,7 +19,7 @@ def transform(df, *args, **kwargs):
     # Split the dataset into 80% training and 20% testing data
     train_df, test_df = train_test_split(
         df,
-        test_size=0.3,
+        test_size=0.2,
         random_state=42
     )
 
