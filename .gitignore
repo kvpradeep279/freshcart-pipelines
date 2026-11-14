@@ -1,0 +1,26 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Data files
+*.csv
+
+# Mage logs
+mage.log
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
